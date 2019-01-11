@@ -98,9 +98,12 @@ body{
 #click1{
     font-size:20px;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(0, 247, 193);
 }
 
 #header{
     width: 50%;
+}
+
+.bronko{
+    color: red;
 }
