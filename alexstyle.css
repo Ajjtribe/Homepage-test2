@@ -54,8 +54,11 @@ body{
 }
 
 #cat1{
-    width: 600px;
-    border: rgb(32, 170, 163) 10px solid;
+    width: 1000px;
+    border: #fc5185 10px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #heading1{
