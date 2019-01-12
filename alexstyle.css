@@ -69,7 +69,7 @@ body{
 
 #heading1{
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #fc5185;
     text-align: center;
@@ -90,6 +90,6 @@ body{
 
 #craigtuts{
     font-size: 15px;
-    color: #fc5185;
+    color: #ffffff;
     text-align: center;
 }
