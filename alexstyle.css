@@ -82,12 +82,22 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     padding: 4px;
+    width: 100%;
+    background-color: #fc5185;
 }
 
-#poemtitle span{
+#poemtitle span{ /*this is a selector and it's saying, span tags nesting inside <p #poemtitle need the following formatting*/
     font-size:20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+
+#poemtitle span span{ /*this is another selector and it's saying, span tags nesting inside span tags nesting inside <p #poemtitle need the following formatting*/
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #364f6b;
+
 }
 
 #header{
