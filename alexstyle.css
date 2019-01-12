@@ -58,7 +58,7 @@ body{
 #cat1{
     width: 1000px;
     border: #fc5185 10px solid;
-    margin: 20px;
+    margin: 20px; /* Margin added to give clearance around the image and seperates it from the heading*/
     /*two lines below mean the image resizes with the browser size*/
     max-width: 100%;
     height: auto;
