@@ -56,9 +56,13 @@ body{
 #cat1{
     width: 1000px;
     border: #fc5185 10px solid;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /*two lines below mean the image resizes with the browser size*/
+    max-width: 100%;
+    height: auto;
+    /*three lines below centre the image*/
+    display: block; /*this tells it to act like brick*/
+    margin-left: auto; /*this tells it to leave as much space left*/
+    margin-right: auto; /*this tells it to leave as much space space, thus centering the image*/
 }
 
 #heading1{
