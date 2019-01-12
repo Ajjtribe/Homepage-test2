@@ -72,7 +72,6 @@ body{
     font-size: 20px;
     color: #ffffff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #fc5185;
     text-align: center;
     padding: 4px;
 }
@@ -85,6 +84,7 @@ body{
 
 #header{
     width: 100%;
+    background-color: #fc5185;
 }
 
 .bronko{
