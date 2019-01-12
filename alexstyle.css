@@ -76,7 +76,15 @@ body{
     padding: 4px;
 }
 
-.poemformat{
+#poemtitle{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 4px;
+}
+
+#poemtitle span{
     font-size:20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
