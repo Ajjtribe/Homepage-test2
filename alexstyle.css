@@ -72,6 +72,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #fc5185;
+    text-align: center;
 }
 
 #click1{
@@ -80,9 +81,15 @@ body{
 }
 
 #header{
-    width: 50%;
+    width: 100%;
 }
 
 .bronko{
     color: red;
+}
+
+#craigtuts{
+    font-size: 15px;
+    color: #fc5185;
+    text-align: center;
 }
