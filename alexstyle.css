@@ -58,6 +58,7 @@ body{
 #cat1{
     width: 1000px;
     border: #fc5185 10px solid;
+    margin: 20px;
     /*two lines below mean the image resizes with the browser size*/
     max-width: 100%;
     height: auto;
@@ -78,6 +79,7 @@ body{
 #click1{
     font-size:20px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #header{
