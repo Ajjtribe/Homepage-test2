@@ -52,7 +52,7 @@ table {
 /*Alex STUFF*/
 body{
     background-color: #3fc1c9;
-    color: #fc5185;
+    color: #ffffff
 }
 
 #cat1{
@@ -85,10 +85,6 @@ body{
 #header{
     width: 100%;
     background-color: #fc5185;
-}
-
-.bronko{
-    color: red;
 }
 
 #craigtuts{
