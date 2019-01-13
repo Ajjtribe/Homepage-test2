@@ -52,7 +52,7 @@ table {
 /*Alex STUFF*/
 body{
     background-color: #3fc1c9;
-    color: #ffffff
+    color: #f5f5f5
 }
 
 #cat1{
@@ -70,7 +70,7 @@ body{
 
 #heading1{
     font-size: 20px;
-    color: #ffffff;
+    color: #f5f5f5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     padding: 4px;
@@ -83,7 +83,7 @@ body{
 
 #poemtitle{
     font-size: 25px;
-    color: #ffffff;
+    color: #f5f5f5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     padding: 4px;
@@ -105,7 +105,7 @@ body{
     background-color: #3fc1c9;
 }
 
-.links{
+h1.links{
     font-size:20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -117,8 +117,8 @@ body{
 }
 
 .craigtuts{
-    font-size: 15px;
-    color: #ffffff;
+    font-size: 17px;
+    color: #f5f5f5;
     text-align: center;
     margin: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
