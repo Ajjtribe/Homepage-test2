@@ -132,7 +132,7 @@ h1.links{
     margin-left: auto; /*this tells it to leave as much space left*/
     margin-right: auto; /*this tells it to leave as much space space, thus centering the image*/
 }
-
+/* The bullet points/numbers etc were not displaying, checked the css reset ^ and removed some styling disply code and it works now */
 #list{
     font-size: 25px;
     color: #f5f5f5;
