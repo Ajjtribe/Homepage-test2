@@ -76,6 +76,11 @@ body{
     padding: 4px;
 }
 
+#header{
+    width: 100%;
+    background-color: #fc5185;
+}
+
 #poemtitle{
     font-size: 25px;
     color: #ffffff;
@@ -100,9 +105,15 @@ body{
     background-color: #3fc1c9;
 }
 
-#header{
+.links{
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 4px;
     width: 100%;
-    background-color: #fc5185;
+    background-color: #364f6b;
+    margin-top: 20px;
+    
 }
 
 #craigtuts{
