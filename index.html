@@ -4,6 +4,14 @@
         <title>HTML Master Class</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="alexstyle.css"></link> <!--all css will use rel="stylesheet" to show the relationship of what what we are referencing is a cascasding style sheet aka css file-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                $("#NMElogo").toggle();
+                        });
+                    });
+        </script>
     </head>
     <body>
         <div id="header"> <!-- the div element is a block element, and will start a new line-->
@@ -26,6 +34,9 @@
                 Live or die on this day<br>
             </span>
         </p>  
+
+        <button id="nmebutton">Toggle between hiding and showing the NME Logo</button>
+
         <!--NME Logo-->
         <p>
             <img id="NMElogo" alt="NMELOGO" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/NME_logo_free.svg">
