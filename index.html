@@ -8,11 +8,17 @@
         <script>
             $(document).ready(function(){ 
                 $("button").click(function(){
-                $("#NMElogo").toggle();
+                    $("#NMElogo").toggle();
                         });
                     });
         </script>
-        <!--this line $(document).ready(function(){ tells it to only function when the page is 100% loaded -->
+        <script>
+           $(document).ready(function(){
+                $("#cat1").mouseenter(function(){
+                    alert("So you like cats?");
+                        });
+                    });
+        </script>
     </head>
     <body>
         <div id="header"> <!-- the div element is a block element, and will start a new line-->
