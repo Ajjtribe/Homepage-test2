@@ -10,10 +10,10 @@
         <script>
                 window.onscroll = function() {scrollFunction()};
                 function scrollFunction() {
-                  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-                    document.getElementById("bigheading").style.fontSize = "40px";
+                  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    document.getElementById("bigheading").style.fontSize = "30px";
                   } else {
-                    document.getElementById("bigheading").style.fontSize = "70px";
+                    document.getElementById("bigheading").style.fontSize = "60px";
                   }
                 }
         </script>
@@ -36,17 +36,18 @@
     </head>
     <body>  
         <div id="bigheading">
-            Test Home Page       
+            Dynamically Shrinking Heading    
         </div>
         <div id="header"> <!-- the div element is a block element, and will start a new line-->
             <p id="heading1">
                  The image is centered and adjusts in size when the browser does, try it!
             </p>
         </div>   
-
-        <p>
-            <img id="cat1" alt="catimage" src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg">
-        </p>
+        <div>
+            <p>
+                <img id="cat1" alt="catimage" src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg">
+            </p>
+        </div>
         <!--Title and poem-->
         <p id=poemtitle> <U>THE FOLLOWING TEXT DISPLAYS THE USE OF SPAN TAGS AND LINE BREAKS</U><br>
             <span>
