@@ -4,8 +4,19 @@
         <title>HTML Master Class</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="alexstyle.css"></link> <!--all css will use rel="stylesheet" to show the relationship of what what we are referencing is a cascasding style sheet aka css file-->
+        <link rel="stylesheet" href="alexstyle.css"> <!--all css will use rel="stylesheet" to show the relationship of what what we are referencing is a cascasding style sheet aka css file-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--Big heading scroll effect-->
+        <script>
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                    document.getElementById("bigheading").style.fontSize = "40px";
+                  } else {
+                    document.getElementById("bigheading").style.fontSize = "70px";
+                  }
+                }
+        </script>
         <!--NME Logo toggle button JQuery code block-->
         <script>
             $(document).ready(function(){ 
@@ -23,10 +34,10 @@
                     });
         </script>
     </head>
-    <body>
-        <div class="bigheading">
-            <h1><span>Test Home Page</span></h1>   
-                <p>By Alex Tribe</p>         
+    <body>  
+        <div id="bigheading">
+            Test Home Page<br>
+                <span>By Alex Tribe</span>            
         </div>
         <div id="header"> <!-- the div element is a block element, and will start a new line-->
             <p id="heading1">
