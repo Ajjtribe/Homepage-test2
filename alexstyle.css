@@ -77,6 +77,7 @@ body{
     display: block; /*this tells it to act like brick*/
     margin-left: auto; /*this tells it to leave as much space left*/
     margin-right: auto; /*this tells it to leave as much space space, thus centering the image*/
+    cursor: pointer;
 }
 
 #heading1{
