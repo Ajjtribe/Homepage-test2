@@ -63,7 +63,7 @@ body{
     transition: 0.3s;
     width: 100%;
     top: 0;
-    position: /*tried a fixed position which works but covers the top of the page and hides some parts */ 
+    /*tried a fixed position which works but covers the top of the page and hides some parts */ 
 }
 
 #cat1{
