@@ -8,25 +8,17 @@ function scrollFunction() {
     document.getElementById("bigheading").style.fontSize = "70px";
     }
 }
-
-//NME Logo toggle button JQuery code block
-
+//Once doc loaded do the following
 $(document).ready(function(){ 
+    //NME Logo toggle button JQuery code block
     $("button").click(function(){
         $("#NMElogo").toggle();
     });
-});
-
-//Alert message appears when you double click the cat image
-
-$(document).ready(function(){
+    //Alert message appears when you double click the cat image
     $("#cat1").dblclick(function(){
         alert("SECRET FOUND!");
     });
-});
-
-
-$(document).ready(function(){
+    // JS for gallery slides
     $("#slides").slidesjs({
         width: 600,
         height: 300,
