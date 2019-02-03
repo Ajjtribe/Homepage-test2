@@ -5,7 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="alexstyle.css"> <!--all css will use rel="stylesheet" to show the relationship of what what we are referencing is a cascasding style sheet aka css file-->
+        <link rel="stylesheet" href="jquery.slides.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="jquery.slides.min.js"></script>
         <!--Big heading scroll effect-->
         <script>
                 window.onscroll = function() {scrollFunction()};
@@ -33,6 +35,14 @@
                         });
                     });
         </script>
+        <script>
+            $(document).ready(function(){
+                $("#slides").slidesjs({
+                    width: 600,
+                    height: 300,
+                });
+            });
+        </script>
     </head>
     <body>  
         <div id="bigheading">
@@ -42,7 +52,14 @@
             <p id="heading1">
                  The image is centered and adjusts in size when the browser does, try it!
             </p>
-        </div>   
+        </div> 
+        <div id="slides">
+            <img src="https://cdn.guidingtech.com/imager/media/assets/210962/Cool-Flash-Wallpapers-in-HD-and-4K-for-Desktop-and-Mobile-1_4d470f76dc99e18ad75087b1b8410ea9.png?1545040423">
+            <img src="https://i0.wp.com/www.montcalmroyallondoncity.co.uk/blog/wp-content/uploads/2017/03/Eiffel-tower-at-sunrise.jpg?fit=1000%2C651&ssl=1">
+            <img src="http://studiaorontica.org/img/384815.jpg">
+            <img src="http://bdfjade.com/data/out/21/5300590-image-cool.jpg">
+            <img src="http://www.toca-ch.com/data/walls/93/24061651.jpg">
+         </div>  
         <div>
             <p>
                 <img id="cat1" alt="catimage" src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg">
