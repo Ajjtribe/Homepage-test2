@@ -8,41 +8,7 @@
         <link rel="stylesheet" href="jquery.slides.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="jquery.slides.min.js"></script>
-        <!--Big heading scroll effect-->
-        <script>
-                window.onscroll = function() {scrollFunction()};
-                function scrollFunction() {
-                  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-                    document.getElementById("bigheading").style.fontSize = "40px";
-                  } else {
-                    document.getElementById("bigheading").style.fontSize = "70px";
-                  }
-                }
-        </script>
-        <!--NME Logo toggle button JQuery code block-->
-        <script>
-            $(document).ready(function(){ 
-                $("button").click(function(){
-                    $("#NMElogo").toggle();
-                        });
-                    });
-        </script>
-        <!--Alert message appears when you double click the cat image-->
-        <script>
-            $(document).ready(function(){
-                $("#cat1").dblclick(function(){
-                    alert("SECRET FOUND!");
-                        });
-                    });
-        </script>
-        <script>
-            $(document).ready(function(){
-                $("#slides").slidesjs({
-                    width: 600,
-                    height: 300,
-                });
-            });
-        </script>
+        <script src="alex.js"></script>
     </head>
     <body>  
         <div id="bigheading">
