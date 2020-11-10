@@ -3,6 +3,7 @@
   width: 800px;
   margin-left: auto; 
   margin-right: auto;
+  padding: 15px;
 }
 
 #slides .slidesjs-navigation {
@@ -10,13 +11,13 @@
 }
 
 #slides .slidesjs-previous {
-  margin-right: 5px;
+  margin-right: 7px;
   float: left;
 }
 
 #slides .slidesjs-next {
-  margin-right: 5px;
-  float: left;
+  margin-right: 7px;
+  float: right;
 }
 
 .slidesjs-pagination {
